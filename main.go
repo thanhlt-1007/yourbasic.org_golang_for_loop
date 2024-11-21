@@ -21,4 +21,10 @@ func main() {
         sum ++
         break
     }
+
+    // For-each range loop
+    strings := []string{"hello", "world"}
+    for i, s := range strings {
+        fmt.Println(i, s)
+    }
 }
