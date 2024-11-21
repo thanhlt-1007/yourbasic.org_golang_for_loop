@@ -14,4 +14,11 @@ func main() {
         n *= 2
         fmt.Println(n)
     }
+
+    // Infinite loop
+    sum := 0
+    for {
+        sum ++
+        break
+    }
 }
